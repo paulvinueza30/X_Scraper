@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    "elonmusk",
+    "OpenAI",
+    "anthropikiw"
+  ],
+  "posts_per_account": 25,
+  "output_dir": "./data",
+  "date_cutoff_days": 30,
+  "headless": false,
+  "slow_mo": 50,
+  "max_retries": 3,
+  "retry_delay": 2.0,
+  "scroll_delay_min": 1.5,
+  "scroll_delay_max": 3.0,
+  "scroll_amount_min": 400,
+  "scroll_amount_max": 800,
+  "page_timeout": 30000,
+  "element_timeout": 10000,
+  "session_file": null,
+  "log_file": "./logs/scraper.log",
+  "log_level": "INFO",
+  "user_agent": null
+}
